@@ -1,0 +1,1 @@
+function a() {var str = arguments.callee.toString(); console.log(str + ";a();");};a();
